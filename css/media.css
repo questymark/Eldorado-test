@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.steps .steps_item a {
+		font-size: 10px;
+	}
+	.cart .cart_item .total {
+		width: 28%;
+	}
+	.cart .cart_item .price {
+		width: 16%;
+	}
+	.recommended_item .pict {
+		min-height: 70px;
+	}
+	.recommended_item .descr .title {
+		display: block;
+		min-height: 46px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.steps .steps_item:after,
+	.steps .steps_item.active:after {
+		display: none;
+	}	 
+	.cart .cart_item .name,
+	.cart .cart_item .status,
+	.cart .cart_item .price,
+	.cart .cart_item .total {
+		width: 100%;
+		text-align: center;
+	}
+	.cart .cart_item .name .descr .credit {
+		display: block;
+		margin: 10px auto;
+	}
+	.cart .cart_item .total .delete {
+		display: none;
+	}
+	.cart .cart_item .total .discount {
+    	background: url(../img/discount.png) no-repeat center;
+	}
+	.cost_block {
+		text-align: right;
+	}
+	.cart .cart_item .price .quantity {
+		text-align: left;
+	}
+	.hitechnic {
+		margin: 10px 0;
+	}
+	.recommended_item {
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
